@@ -24,8 +24,6 @@ install.packages("remotes")
 remotes::install_github("bingStat/ECSLR")
 ```
 
-The package includes compiled C++ code and requires an appropriate R compilation toolchain (such as Rtools on Windows). Required R dependencies are specified in [DESCRIPTION](DESCRIPTION).
-
 ## Quick start
 
 ```r
