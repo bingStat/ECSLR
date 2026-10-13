@@ -1,0 +1,18 @@
+Package: ECSLR
+Type: Package
+Title: Ensemble Cost-sensitive Logistic Regression
+Version: 1.0.0
+Authors@R: c(
+    person("Bing", "Yang", email = "bing.yang@kuleuven.be", role = c("aut", "cre")),
+    person("Stefan", "Van Aelst", role = "aut"),
+    person("Tim", "Verdonck", role = "aut"))
+License: GPL-3
+Description: Implements diverse ensemble cost-sensitive logistic regression methods for binary classification tasks.
+Encoding: UTF-8
+Depends: foreach (>= 1.5.2), doParallel (>= 1.0.17)
+Imports: Information,caret
+Suggests: pROC, PRROC, bench
+LinkingTo: RcppEigen, Rcpp
+RoxygenNote: 7.3.3
+NeedsCompilation: yes
+Packaged: 2024-07-16 13:07:44 UTC
