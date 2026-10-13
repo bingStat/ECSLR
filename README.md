@@ -82,6 +82,3 @@ If you use ECSLR in your research, please cite:
 }
 ```
 
-## License
-
-Distributed under the [GNU General Public License version 3](LICENSE), consistent with `License: GPL-3` in the R package metadata.
